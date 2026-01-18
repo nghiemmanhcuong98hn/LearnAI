@@ -9,7 +9,7 @@ const Header = (props: Props) => {
                   <Logo />
                   <ul className='flex gap-8 mb-0! ml-20'>
                         <li>
-                              <Link href="/">Trang chỉ</Link>
+                              <Link href="/">Trang chủ</Link>
                         </li>
                         <li>
                               <Link href="/about">Giới thiệu</Link>
