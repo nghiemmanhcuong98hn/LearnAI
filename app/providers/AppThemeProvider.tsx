@@ -39,7 +39,7 @@ const AntdThemeProvider = ({ children }: { children: React.ReactNode }) => {
 
 export function AppThemeProvider({ children }: { children: React.ReactNode }) {
   return (
-    <NextThemesProvider attribute="class" defaultTheme="system" enableSystem>
+    <NextThemesProvider attribute="class" defaultTheme="light" enableSystem={false} storageKey="theme-preference">
       <AntdThemeProvider>{children}</AntdThemeProvider>
     </NextThemesProvider>
   );
